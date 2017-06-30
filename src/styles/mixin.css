@@ -1,0 +1,17 @@
+:root{
+    /*定义全局变量*/
+    --red:red;
+}
+
+/*定义所有的宏*/
+@define-mixin clearfix{
+    &:after{
+        display: table;
+        clear: both;
+        content: " ";
+    }
+}
+@define-mixin h50{
+    height: 50px;
+    line-height: 50px;
+}
